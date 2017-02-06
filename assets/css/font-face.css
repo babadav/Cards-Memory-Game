@@ -1,0 +1,35 @@
+/* - @font-face 
+========================
+*/
+
+@font-face {
+  font-family: 'lato-black';
+  src: url('../fonts/lato-black/Lato-Bla-webfont.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/lato-black/Lato-Bla-webfont.woff') format('woff'), 
+       url('../fonts/lato-black/Lato-Bla-webfont.ttf')  format('truetype'),
+       url('../fonts/lato-black/Lato-Bla-webfont.svg#Lato-Bla-webfont') format('svg');
+}
+
+@font-face {
+  font-family: 'lato-bold';
+  src: url('../fonts/lato-bold/Lato-Bol-webfont.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/lato-bold/Lato-Bol-webfont.woff') format('woff'), 
+       url('../fonts/lato-bold/Lato-Bol-webfont.ttf')  format('truetype'),
+       url('../fonts/lato-bold/Lato-Bol-webfont.svg#Lato-Bol-webfont') format('svg');
+}
+
+@font-face {
+  font-family: 'lato-light';
+  src: url('../fonts/lato-light/Lato-Lig-webfont.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/lato-light/Lato-Lig-webfont.woff') format('woff'), 
+       url('../fonts/lato-light/Lato-Lig-webfont.ttf')  format('truetype'),
+       url('../fonts/lato-light/Lato-Lig-webfont.svg#Lato-Lig-webfont') format('svg');
+}
+
+@font-face {
+  font-family: 'lato-regular';
+  src: url('../fonts/lato-regular/Lato-Reg-webfont.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/lato-regular/Lato-Reg-webfont.woff') format('woff'), 
+       url('../fonts/lato-regular/Lato-Reg-webfont.ttf')  format('truetype'),
+       url('../fonts/lato-regular/Lato-Reg-webfont.svg#Lato-Reg-webfont') format('svg');
+}
