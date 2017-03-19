@@ -75,7 +75,7 @@ var createModal= function(){
 	var modal= document.createElement("div");
 	modal.classList.add("modal");
 	document.body.appendChild(modal);
-	modal.innerHTML = "<p> CONFUCKINGGRATS!!!</p>" + "You took " + time + " time units " +" to finish this game!</p> ";
+	modal.innerHTML = "<p> CONGRATS!!!</p>" + "You took " + time + " time units " +" to finish this game!</p> ";
 
 	var restartButton= document.createElement("button");
 	restartButton.classList.add("restart-button");
@@ -130,7 +130,7 @@ function onCardClick(e){
 	var flippedCards = document.querySelectorAll(".flipped");
 	//allow card to flip
 	if ( flippedCards.length < 2){
-		if (!this.classList.contains("flipped") ) { 
+		if (!this.classList.contains("flipped") && !this.classList.contains("matched")) { 
 			this.classList.add("flipped");
 		
 	
@@ -202,19 +202,19 @@ window.addEventListener("load", startGame);
 	    {color: "red",   number: "J" , suit: "&hearts;"},
 	    {color: "red",   number: "Q" , suit: "&hearts;"},
 	    {color: "red",   number: "K" , suit: "&hearts;"},
-	     {color: "black", number: "A" , suit: "&diams;"},
-	    {color: "black", number: "2" , suit: "&diams;"},
-	    {color: "black", number: "3" , suit: "&diams;"},
-	    {color: "black", number: "4" , suit: "&diams;"},
-	    {color: "black", number: "5" , suit: "&diams;"},
-	    {color: "black", number: "6" , suit: "&diams;"},
-	    {color: "black", number: "7" , suit: "&diams;"},
-	    {color: "black", number: "8" , suit: "&diams;"},
-	    {color: "black", number: "9" , suit: "&diams;"},
-	    {color: "black", number: "10", suit: "&diams;"},
-	    {color: "black", number: "J" , suit: "&diams;"},
-	    {color: "black", number: "Q" , suit: "&diams;"},
-	    {color: "black", number: "K" , suit: "&diams;"},
+	     {color: "red", number: "A" , suit: "&diams;"},
+	    {color: "red", number: "2" , suit: "&diams;"},
+	    {color: "red", number: "3" , suit: "&diams;"},
+	    {color: "red", number: "4" , suit: "&diams;"},
+	    {color: "red", number: "5" , suit: "&diams;"},
+	    {color: "red", number: "6" , suit: "&diams;"},
+	    {color: "red", number: "7" , suit: "&diams;"},
+	    {color: "red", number: "8" , suit: "&diams;"},
+	    {color: "red", number: "9" , suit: "&diams;"},
+	    {color: "red", number: "10", suit: "&diams;"},
+	    {color: "red", number: "J" , suit: "&diams;"},
+	    {color: "red", number: "Q" , suit: "&diams;"},
+	    {color: "red", number: "K" , suit: "&diams;"},
 	    {color: "black", number: "A" , suit: "&spades;"},
 	    {color: "black", number: "2" , suit: "&spades;"},
 	    {color: "black", number: "3" , suit: "&spades;"},
@@ -256,23 +256,3 @@ window.addEventListener("load", startGame);
 	dealCards(pickedCards);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
